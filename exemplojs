@@ -1,8 +1,0 @@
-const mostrarOla = () =>{
-    let nome = document.getElementById("nome").value;
-    document.getElementById("resposta").innerHTML = "olá " + nome;
-}
-
-const mostrar = document.getElementById("mostrar");
-
-mostrar.addEventListener("click", mostrarOla);
