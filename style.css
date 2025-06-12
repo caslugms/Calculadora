@@ -76,7 +76,7 @@ body {
 body {
     background: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-        url('imagens/1000_F_367875230_cxHBO395DgqIGy7vzV8Tc6x8rXo7Xe0z.jpg') center/cover fixed;
+        url(imagens/0b00444d2aff26b26b04317d09c9e3cf.jpeg) center/cover fixed;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
 }
@@ -84,7 +84,7 @@ body {
 .card {
     background-color: rgba(255, 255, 255, 0.95);
     border: none;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
 }
 
 #screen {
@@ -93,8 +93,14 @@ body {
 }
 
 .icone-calculadora {
-    width: 70px !important; 
-    height: 70px !important;
-    margin-right: 6px !important; 
+    width: 50px !important; 
+    height: 50px !important;
+    margin-right: 12px !important; 
 }
+
+    .card-title {
+        font-size: 1.75rem;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
 
